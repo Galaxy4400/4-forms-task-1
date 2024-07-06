@@ -8,6 +8,11 @@
 	width: 500px;
 	display: grid;
 	grid-gap: 20px;
+	// .form__section
+	&__section {
+		display: grid;
+		grid-gap: 25px;
+	}
 	// .form__error
 	&__error {
 		color: red;
