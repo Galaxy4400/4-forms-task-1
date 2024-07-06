@@ -1,0 +1,35 @@
+.form {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+	border: 1px solid black;
+	padding: 30px;
+	width: 500px;
+	display: grid;
+	grid-gap: 20px;
+	// .form_error
+	&_error {
+		color: red;
+		font-size: 14px;
+	}
+	// .form__inputs
+	&__inputs {
+		display: grid;
+		grid-gap: 15px;
+	}
+	// .form__label
+	&__label {
+		width: 100%;
+	}
+	// .form__input
+	&__input {
+		width: 100%;
+	}
+	// .form__buttons
+	&__buttons {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+	}
+}
