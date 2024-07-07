@@ -19,8 +19,8 @@ export function Form() {
 
 	const submitBtn = useRef(null);
 
-	if (isValid && submitBtn.current) {
-		submitBtn.current.focus();
+	if (isValid) {
+		submitBtn.current?.focus();
 	}
 
 	function onSubmit(data) {
